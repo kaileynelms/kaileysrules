@@ -1,0 +1,155 @@
+body {
+  width:100% auto;
+  overflow-x: 0;
+
+}
+
+img {
+  max-width: 120%;
+  max-height: 120vh;
+}
+
+.fixedgif {
+  right:-4em;
+  position:fixed;
+  z-index:1;
+  bottom:0;
+
+}
+
+.footer {
+  left: 3em;
+  position:absolute;
+  z-index:1;
+  bottom:6;
+}
+
+
+h1{
+  font-family: 'Rock Salt', cursive;
+    font-size: 40px;
+   color: #333333;
+}
+h2{
+  font-family: 'Rock Salt', cursive;
+  font-size: 13px;
+color: #333333;
+}
+body{
+  padding: 40px;
+  background-color: #FF6EC7;
+}
+
+p {
+  white-space: nowrap;
+  overflow: hidden;
+  font-family:'Gloria Hallelujah', cursive;
+  font-size: 25px;
+  color: #333333;
+}
+
+/* Animation */
+p {
+  animation: animated-text 4s steps(30,end) 1s 1 normal both;
+}
+
+/* text animation */
+
+@keyframes animated-text{
+  from{width: 0;}
+  to{width: 100%;}
+}
+
+
+
+.line1 {
+
+    animation: animated-text 4s steps(30,end) 1s 1 normal both;
+              animation-delay:2s
+
+}
+
+
+.line2 {
+
+    animation: animated-text 4s steps(30,end) 1s 1 normal both;
+               animation-delay:4s;
+
+}
+.line3 {
+
+    animation: animated-text 4s steps(30,end) 1s 1 normal both;
+              animation-delay:6s
+
+}
+
+
+.line4 {
+
+    animation: animated-text 4s steps(30,end) 1s 1 normal both;
+               animation-delay:8s;
+
+}
+.line5 {
+
+    animation: animated-text 4s steps(30,end) 1s 1 normal both;
+              animation-delay:10s
+
+}
+
+
+.line6 {
+
+    animation: animated-text 4s steps(30,end) 1s 1 normal both;
+               animation-delay:12s;
+
+}
+
+.line7 {
+
+    animation: animated-text 4s steps(30,end) 1s 1 normal both;
+              animation-delay:14s
+
+}
+
+
+.line8 {
+
+    animation: animated-text 4s steps(30,end) 1s 1 normal both;
+               animation-delay:16s;
+
+}
+
+.line9 {
+
+    animation: animated-text 4s steps(30,end) 1s 1 normal both;
+               animation-delay:18s;
+
+}
+
+.line10 {
+
+    animation: animated-text 4s steps(30,end) 1s 1 normal both;
+              animation-delay:20s
+
+
+}
+
+
+.bkg {
+  width:100%;
+  height:100vh;
+  z-index: -1;
+  position: fixed;
+  top:0;
+  object-fit:cover;
+  left:0;
+}
+
+.bkg img {
+  width:100%;
+  height:auto;
+  min-height:100vh;
+  object-fit:cover;
+  object-position: 50% 0%;
+}
